@@ -35,8 +35,6 @@ class Sepsis_features(BaseModel):
     Insurance:float
 
 
-#Endpoints
-
 @app.get('/')
 async def home():
     return {'Hello world'}
@@ -46,7 +44,7 @@ async def home():
 async def Predict_Sepsis(input:Sepsis_features):
     "function that receive the posted input data,do the operation and return an output /error message"
     output ={}   
-    #try to execute the operation
+ 
     try:
         data = {
             'PRG': input.PRG,
@@ -59,27 +57,7 @@ async def Predict_Sepsis(input:Sepsis_features):
             'Age':input.Age,
             'Insurance': input.Insurance,
         }
-        
-        # df = pd.DataFrame([data])
-        # prediction = pipeline.predict(df)
-        # prediction_probs = pipeline.predict_proba(df)
-        # # print(f"[iNFO] Input data as dataframe:\n{prediction}")
 
-        # # #Ml part
-        # predicted_class = pipeline.predict(df)
-        # predicted_class_probability = prediction_probs[0][predicted_class[0]]
-        # if(prediction[0].tolist() ==0):
-        #     response = "Negative"
-        # if(prediction[0].tolist() ==1 ):
-        #     response ="Positive"
-
-        # # print(prediction)
-        # #format output
-        # output ={
-        #     "data" : data,
-        #     "prediction": predicted_class_probability,
-        #     "result":response
-        # }
         df = pd.DataFrame([data])
         prediction_probs = pipeline.predict_proba(df)
         prediction_class = pipeline.predict(df)
@@ -89,7 +67,6 @@ async def Predict_Sepsis(input:Sepsis_features):
         if(prediction_class[0].tolist() ==1 ):
             response ="Positive"
 
-        # format output
         output = {
             "data": data,
             "predicted_class": prediction_class[0].tolist(),
