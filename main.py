@@ -2,6 +2,7 @@ from fastapi import FastAPI
 import joblib
 from  pydantic import BaseModel
 import pandas as pd
+import numpy as np
 import uvicorn
 import logging
 
@@ -38,10 +39,11 @@ class Sepsis_features(BaseModel):
 
 @app.get('/')
 async def home():
-    return {'Hello':'world'}
+    return {'Hello world'}
+
 
 @app.post('/predict')
-async def PredictSepsi(input:Sepsis_features):
+async def Predict_Sepsis(input:Sepsis_features):
     "function that receive the posted input data,do the operation and return an output /error message"
     output ={}   
     #try to execute the operation
@@ -58,23 +60,43 @@ async def PredictSepsi(input:Sepsis_features):
             'Insurance': input.Insurance,
         }
         
-        df = pd.DataFrame([data])
-        prediction = pipeline.predict(df)
-        # print(f"[iNFO] Input data as dataframe:\n{prediction}")
+        # df = pd.DataFrame([data])
+        # prediction = pipeline.predict(df)
+        # prediction_probs = pipeline.predict_proba(df)
+        # # print(f"[iNFO] Input data as dataframe:\n{prediction}")
 
-        #Ml part
-        if(prediction[0].tolist() ==0):
+        # # #Ml part
+        # predicted_class = pipeline.predict(df)
+        # predicted_class_probability = prediction_probs[0][predicted_class[0]]
+        # if(prediction[0].tolist() ==0):
+        #     response = "Negative"
+        # if(prediction[0].tolist() ==1 ):
+        #     response ="Positive"
+
+        # # print(prediction)
+        # #format output
+        # output ={
+        #     "data" : data,
+        #     "prediction": predicted_class_probability,
+        #     "result":response
+        # }
+        df = pd.DataFrame([data])
+        prediction_probs = pipeline.predict_proba(df)
+        prediction_class = pipeline.predict(df)
+
+        if(prediction_class[0].tolist() ==0):
             response = "Negative"
-        if(prediction[0].tolist() ==1 ):
+        if(prediction_class[0].tolist() ==1 ):
             response ="Positive"
-        # print(prediction)
-        #format output
-        output ={
-            "data" : data,
-            "operation" : "Addition",
-            "way": "Sendind a data to predict",
-            "result":response 
+
+        # format output
+        output = {
+            "data": data,
+            "predicted_class": prediction_class[0].tolist(),
+            "prediction": prediction_probs[0].tolist(),
+            "result":response
         }
+
     except ValueError as e :
         logger.error(f"ValueError: {e}")
         output ={ "error":str(e)}
