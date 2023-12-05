@@ -46,17 +46,7 @@ async def Predict_Sepsis(input:Sepsis_features):
     output ={}   
  
     try:
-        data = {
-            'PRG': input.PRG,
-            'PL':input.PL,
-            'PR':input.PR,
-            'SK':input.SK,
-            'TS':input.TS,
-            'M11':input.M11,
-            'BD2':input.BD2,
-            'Age':input.Age,
-            'Insurance': input.Insurance,
-        }
+        data = {[Sepsis_features.model_dump]}
 
         df = pd.DataFrame([data])
         prediction_probs = pipeline.predict_proba(df)
