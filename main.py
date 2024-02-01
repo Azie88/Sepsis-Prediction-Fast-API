@@ -9,6 +9,7 @@ import logging
 
 # Additional information to include in app description
 Util_info = """
+Input:
 - PRG: Plasma Glucose
 - PL: Blood Work Result-1 (mu U/ml)
 - PR: Blood Pressure (mm Hg)
@@ -20,7 +21,9 @@ Util_info = """
 - Insurance: If a patient holds a valid insurance card
 
 Output:
-- Sepsis: Positive if a patient in ICU will develop sepsis, Negative if a patient in ICU will not develop sepsis.
+- Predicted Class = 0 (Negative) or 1 (positive)
+- Prediction = Probability of predicted class
+- Result = Positive if a patient in ICU will develop sepsis, Negative if a patient in ICU will not develop sepsis
 """
 
 #load pipeline and encoder
