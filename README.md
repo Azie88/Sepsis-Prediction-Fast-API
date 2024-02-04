@@ -96,6 +96,25 @@ The two long command-lines have the same structure. They pipe multiple commands 
 
 Here is a [tutorial](https://fastapi.tiangolo.com/tutorial/) for fastAPI
 
+## FastAPI Screenshots
+
+Below is a preview showcasing some features of the FastAPI:
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 33.33%; text-align: center;">
+        <p>Description</p>
+             <img src="" alt="Middle" width="90%"/>
+    </div>
+    <div style="flex: 33.33%; text-align: center;">
+        <p>FastAPI Input</p>
+             <img src="" alt="Top" width="90%"/>
+        </div>
+    <div style="flex: 33.33%; text-align: center;">
+        <p>Prediction Result</p>
+        <img src="" alt="Middle" width="90%"/>
+        </div>
+</div>
+
 ## Author :writing_hand:
 
 Andrew Obando
