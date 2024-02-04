@@ -104,7 +104,7 @@ Below is a preview showcasing some features of the FastAPI:
 <div style="display: flex; align-items: center;">
     <div style="flex: 33.33%; text-align: center;">
         <p>Description</p>
-             <img src="https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/73501a35-f594-4ab9-a5cf-1f284298bed0" alt="FastAPI Docs" width="90%"/>
+        ![Sepsis 1](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/491e4037-7b50-4061-b062-82cc5456d63b)
     </div>
     <div style="flex: 33.33%; text-align: center;">
         <p>FastAPI Input</p>
