@@ -103,7 +103,7 @@ Below is a preview showcasing some features of the FastAPI:
 
 <table>
     <tr>
-        <th> Gradio App on Huggingface </th>
+        <th> Sepsis Model API </th>
     </tr>
     <tr>
         <td>   </td>
