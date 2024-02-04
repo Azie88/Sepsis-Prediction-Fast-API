@@ -11,7 +11,7 @@ The purpose is to enhance early detection and intervention for sepsis, thereby i
 - [Project Overview](#project-overview-)
 - [Some Tools Used For The Project](#some-tools-used-for-the-project-)
 - [Dataset](#data-fields-)
-- [Author] (#author%EF%B8%8F)
+- [Author] (#author-writing_hand)
 
 ##  Some Tools Used For The Project 🛠️
 <p align="left">
