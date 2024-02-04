@@ -40,7 +40,7 @@ The purpose is to enhance early detection and intervention for sepsis, thereby i
 | Insurance | N/A     | If a patient holds a valid insurance card|
 | Sepssis                 | Target           | Positive: if a patient in ICU will develop a sepsis , and Negative: otherwise |
 
-## Author ✍️
+## Author :writing_hand:
 
 Andrew Obando
 
