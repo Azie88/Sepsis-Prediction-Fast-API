@@ -101,7 +101,7 @@ Here is a [tutorial](https://fastapi.tiangolo.com/tutorial/) for fastAPI
 
 Below is a preview showcasing some features of the FastAPI:
 
-[Sepsis 1](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/52ca4fb3-59f3-4045-8497-38c49da0c4d2)
+![Sepsis 1](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/52ca4fb3-59f3-4045-8497-38c49da0c4d2)
 
 ## Author :writing_hand:
 
