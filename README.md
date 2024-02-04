@@ -92,6 +92,8 @@ The two long command-lines have the same structure. They pipe multiple commands 
         
       http://127.0.0.1:8000/docs
 
+Here is a [tutorial](https://fastapi.tiangolo.com/tutorial/) for fastAPI
+
 ## Author :writing_hand:
 
 Andrew Obando
