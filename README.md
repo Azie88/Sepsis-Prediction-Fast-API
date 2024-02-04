@@ -10,7 +10,8 @@ The purpose is to enhance early detection and intervention for sepsis, thereby i
 ## Table of Contents 🔖
 - [Project Overview](#project-overview-)
 - [Some Tools Used For The Project](#some-tools-used-for-the-project-)
-- [Dataset](#dat-fields-)
+- [Dataset](#data-fields-)
+- [Author] (#author-)
 
 ##  Some Tools Used For The Project 🛠️
 <p align="left">
@@ -39,4 +40,12 @@ The purpose is to enhance early detection and intervention for sepsis, thereby i
 | Insurance | N/A     | If a patient holds a valid insurance card|
 | Sepssis                 | Target           | Positive: if a patient in ICU will develop a sepsis , and Negative: otherwise |
 
-### Missing Attribute Values: Yes
+## Author ✍️
+
+Andrew Obando
+
+Connect with me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/andrewobando/)
+
+---
+
+Feel free to star ⭐ this repository if you find it helpful!
