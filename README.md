@@ -107,7 +107,7 @@ Here is a [tutorial](https://fastapi.tiangolo.com/tutorial/) for fastAPI
 
 ![Sepsis 2](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/d5bc6172-ee23-4941-882b-3ea3a7db836a)
 
-Prediction
+- Prediction
 
 ![Sepsis 3](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/9dab6e76-0c66-4a08-8f5c-63ab36b20faf)
 
