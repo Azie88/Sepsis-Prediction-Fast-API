@@ -1,4 +1,5 @@
-# Sepsis-Prediction-with-Supervised-Machine-Learning :moyai:
+# Sepsis-Prediction-with-Supervised-Machine-Learning
+![Un cœur humain malade dans un univers rétro futuri](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/7fab0609-17c2-4731-920c-e0ab40e794f9)
 
 ## Project Overview 📖
 
@@ -103,7 +104,7 @@ Below is a preview showcasing some features of the FastAPI:
 <div style="display: flex; align-items: center;">
     <div style="flex: 33.33%; text-align: center;">
         <p>Description</p>
-             <img src="" alt="Middle" width="90%"/>
+             <img src="https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/73501a35-f594-4ab9-a5cf-1f284298bed0" alt="FastAPI Docs" width="90%"/>
     </div>
     <div style="flex: 33.33%; text-align: center;">
         <p>FastAPI Input</p>
