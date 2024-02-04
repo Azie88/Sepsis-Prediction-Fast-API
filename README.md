@@ -14,6 +14,8 @@ It is a potentially life-threatening condition that arises when the body's respo
 
 The purpose is to enhance early detection and intervention for sepsis, thereby improving patient outcomes and reducing healthcare costs associated with prolonged ICU stays and intensive treatments.
 
+The project is guided by the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework.
+
 
 ## Table of Contents 🔖
 - [Project Overview](#project-overview-)
