@@ -24,6 +24,7 @@ The project is guided by the CRISP-DM (Cross-Industry Standard Process for Data 
 - [Dataset](#data-fields-)
 - [Repository Setup](#repository-setup)
 - [Run FastAPI](#run-fastapi)
+- [API Screenshots](#fastapi-screenshots)
 - [Author](#author-writing_hand)
 
 ##  Some Tools Used For The Project 🛠️
