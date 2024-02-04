@@ -21,7 +21,7 @@ The project is guided by the CRISP-DM (Cross-Industry Standard Process for Data 
 - [Project Overview](#project-overview-)
 - [Some Tools Used For The Project](#some-tools-used-for-the-project-)
 - [Dataset](#data-fields-)
-- [Respoitory Setup](#repository-setup)
+- [Repository Setup](#repository-setup)
 - [Run FastAPI](#run-fastapi)
 - [Author](#author-writing_hand)
 
