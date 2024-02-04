@@ -1,3 +1,17 @@
+# Sepsis-Prediction-with-Supervised-Machine-Learning 🤖
+
+## Project Overview 📖
+
+In this project, we leverage supervised machine learning techniques, specifically classification, to develop a predictive model aimed at identifying the likelihood of sepsis occurrence among patients admitted to Intensive Care Units (ICUs). Our classification model is designed to discriminate between patients who are likely to develop sepsis and those who are not, based on a comprehensive set of features.
+
+The purpose is to enhance early detection and intervention for sepsis, thereby improving patient outcomes and reducing healthcare costs associated with prolonged ICU stays and intensive treatments.
+
+
+## Table of Contents 🔖
+- [Project Overview](#project-overview-)
+- [Some Tools Used For The Project](#some-tools-used-for-the-project-)
+- [Dataset](#dat-fields-)
+
 ##  Some Tools Used For The Project 🛠️
 <p align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
