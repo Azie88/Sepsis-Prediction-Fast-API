@@ -27,8 +27,8 @@ Output:
 """
 
 #load pipeline and encoder
-pipeline  = joblib.load('toolkit/pipeline.joblib')
-encoder  = joblib.load('toolkit/encoder.joblib')
+pipeline  = joblib.load('./toolkit/pipeline.joblib')
+encoder  = joblib.load('./toolkit/encoder.joblib')
 
 # Configure the logs
 logging.basicConfig(level=logging.INFO)
