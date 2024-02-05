@@ -5,8 +5,8 @@
 
 In this project, we leverage supervised machine learning techniques, specifically classification, to develop a predictive model aimed at identifying the likelihood of sepsis occurrence among patients admitted to Intensive Care Units (ICUs). Our classification model is designed to discriminate between patients who are likely to develop sepsis and those who are not, based on a comprehensive set of features.
 
-**Sepsis** is a medical term which refers to any “generalized inflammatory response associated with a serious infection”. This lethal transmitted response occurs when the host's response to infection, systemic and severe inflammation of the body, causes damage to its own tissues and organs. It is accompanied by a cytokine shock1.
-It is a potentially life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs. Risk factors include:
+**Sepsis** is a medical term which refers to any “generalized inflammatory response associated with a serious infection”. This lethal transmitted response occurs when the host's response to infection, systemic and severe inflammation of the body, causes damage to its own tissues and organs. It is accompanied by a cytokine shock.
+It is a potentially life-threatening condition and risk factors include:
  
 - being very young or old
 - a weakened immune system from conditions such as cancer or diabetes, major trauma, and burns.
@@ -20,7 +20,7 @@ The project is guided by the CRISP-DM (Cross-Industry Standard Process for Data 
 
 ## Table of Contents 🔖
 - [Project Overview](#project-overview-)
-- [Some Tools Used For The Project](#some-tools-used-for-the-project-)
+- [Some Tools Used For The Project](#some-tools-used-for-the-project-🛠️)
 - [Dataset](#data-fields-)
 - [Repository Setup](#repository-setup)
 - [Run FastAPI](#run-fastapi)
