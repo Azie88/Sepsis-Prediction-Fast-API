@@ -18,7 +18,7 @@ The purpose is to enhance early detection and intervention for sepsis, thereby i
 
 The project is guided by the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework.
 
-## Project Links 🔗
+## Project Links :link:
 
 | Notebook      | Docker Image        | Published Article |
 |-----------|-------------|:-------------:|
@@ -27,15 +27,15 @@ The project is guided by the CRISP-DM (Cross-Industry Standard Process for Data 
 
 ## Table of Contents 🔖
 - [Project Overview](#project-overview-)
-- [Project Links](#project-links-🔗)
-- [Some Tools Used For The Project](#some-tools-used-for-the-project-🛠️)
+- [Project Links](#project-links-link)
+- [Some Tools Used For The Project](#some-tools-used-for-the-project-hammer_and_wrench)
 - [Dataset](#data-fields-)
 - [Repository Setup](#repository-setup)
 - [Run FastAPI](#run-fastapi)
 - [API Screenshots](#fastapi-screenshots)
 - [Author](#author-writing_hand)
 
-##  Some Tools Used For The Project 🛠️
+##  Some Tools Used For The Project :hammer_and_wrench:
 <p align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt="pandas" width="45" height="45"/>
