@@ -1,5 +1,6 @@
 # Sepsis-Prediction-with-Supervised-Machine-Learning
-![Un cœur humain malade dans un univers rétro futuri](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/7fab0609-17c2-4731-920c-e0ab40e794f9)
+![The image should showcase the integration of high ](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/61bc57f6-9902-4935-846d-b33c53f39031)
+
 
 ## Project Overview 📖
 
