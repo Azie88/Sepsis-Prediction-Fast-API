@@ -4,19 +4,9 @@
 
 ## Project Overview 📖
 
-In this project, we leverage supervised machine learning techniques, specifically classification, to develop a predictive model aimed at identifying the likelihood of sepsis occurrence among patients admitted to Intensive Care Units (ICUs). Our classification model is designed to discriminate between patients who are likely to develop sepsis and those who are not, based on a comprehensive set of features.
+This is a simple tool designed to help identify patients who might be at risk of **sepsis** (a life-threatening reaction to an infection).
 
-**Sepsis** is a medical term which refers to any “generalized inflammatory response associated with a serious infection”. This lethal transmitted response occurs when the host's response to infection, systemic and severe inflammation of the body, causes damage to its own tissues and organs. It is accompanied by a cytokine shock.
-It is a potentially life-threatening condition and risk factors include:
- 
-- being very young or old
-- a weakened immune system from conditions such as cancer or diabetes, major trauma, and burns.
-
-(Source : [Wikipedia](https://en.wikipedia.org/wiki/Sepsis))
-
-The purpose is to enhance early detection and intervention for sepsis, thereby improving patient outcomes and reducing healthcare costs associated with prolonged ICU stays and intensive treatments.
-
-The project is guided by the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework.
+By entering a few basic health details (like blood pressure, age, etc.), this tool uses machine learning to predict if a patient is likely to develop sepsis. It was built to assist healthcare providers in making early decisions.
 
 ## Project Links :link:
 
@@ -85,26 +75,55 @@ The two long command-lines have the same structure. They pipe multiple commands 
 
 **NB:** For MacOs users, please install `Xcode` if you have an issue.
 
-## Run FastAPI
+## How to Run It
 
-- Run the API (being at the repository root):
-        
-  FastAPI:
-    
-    - Main
+You can run this tool in two ways.
 
-          uvicorn src.main:app --reload 
+### Option 1: Using Docker (Recommended)
+If you have Docker installed, this is the easiest way.
 
-    <!-- - Sepsis prediction
+1. **Build the app**:
+   ```bash
+   docker build -t sepsis-api .
+   ```
+2. **Run the app**:
+   ```bash
+   docker run -p 800:800 sepsis-api
+   ```
+3. **Open the tool**:
+   Go to your web browser and visit: [http://localhost:800/docs](http://localhost:800/docs)
 
-          uvicorn src.main:app --reload  -->
+### Option 2: Running Locally (For Python Users)
+If you have Python installed on your computer:
 
+1. **Install the requirements**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Start the app**:
+   ```bash
+   python main.py
+   ```
+3. **Open the tool**:
+   Go to your web browser and visit: [http://localhost:8000/docs](http://localhost:8000/docs)
+   *(Note: When running locally with python, it uses port 8000)*
 
-  - Go to your browser at the local port, to explore the API's documentation :
-        
-      http://127.0.0.1:8000/docs
+## How to Use
+Once you open the link above, you will see a page titled "Sepsis Prediction App". Click exclusively on **POST /predict** -> **Try it out**.
 
-Here is a [tutorial](https://fastapi.tiangolo.com/tutorial/) for fastAPI
+You will need to enter the following numbers for the patient:
+
+*   **PRG**: Plasma Glucose level.
+*   **PL**: Blood Work Result 1.
+*   **PR**: Blood Pressure (mm Hg).
+*   **SK**: Blood Work Result 2 (mm).
+*   **TS**: Blood Work Result 3.
+*   **M11**: Body Mass Index (BMI).
+*   **BD2**: Blood Work Result 4.
+*   **Age**: Patient's age in years.
+*   **Insurance**: Type `1` if they have insurance, `0` if not.
+
+Click the blue **Execute** button. The result will appear below, telling you if the prediction is **Positive** (Risk of Sepsis) or **Negative** (No Risk).
 
 ## FastAPI Screenshots
 
