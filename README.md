@@ -12,7 +12,7 @@ By entering a few basic health details (like blood pressure, age, etc.), this to
 
 | Notebook      | Docker Image        | Published Article |
 |-----------|-------------|:-------------:|
-| [Sepsis ML model notebook](https://github.com/Azie88/Sepsis-Prediction-Fast-API/blob/main/dev/ml_project_sepsis.ipynb) | [Docker image on Docker Hub](https://hub.docker.com/repository/docker/azie88/sepsis-app-fast-api/general) |  [Sepsis Prediction Article](https://medium.com/@obandoandrew8/building-a-machine-learning-api-with-python-fastapi-and-docker-7281df112565) |
+| [Sepsis ML model notebook](https://github.com/Azie88/Sepsis-Prediction-Fast-API/blob/main/dev/ml_project_sepsis.ipynb) | [Docker image on Docker Hub](https://hub.docker.com/repository/docker/azie88/sepsis-api/general) |  [Sepsis Prediction Article](https://medium.com/@obandoandrew8/building-a-machine-learning-api-with-python-fastapi-and-docker-7281df112565) |
 
 
 ## Table of Contents 🔖
