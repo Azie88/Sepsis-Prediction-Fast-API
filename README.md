@@ -140,11 +140,18 @@ Click the blue **Execute** button. The result will appear below, telling you if 
 ![Sepsis 3](https://github.com/Azie88/Sepsis-Prediction-Fast-API/assets/101363399/9dab6e76-0c66-4a08-8f5c-63ab36b20faf)
 
 
+## Contributions :handshake:
+
+Open an issue, submit a pull request or contact me for any contributions.
+
 ## Author :writing_hand:
 
 Andrew Obando
 
-Connect with me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/andrewobando/)
+<a href="https://www.linkedin.com/in/andrewobando/"><img align="left" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Andrew Obando | LinkedIn"/></a>
+<a href="https://medium.com/@obandoandrew8">
+![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
+</a>
 
 ---
 
